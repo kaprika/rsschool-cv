@@ -30,6 +30,7 @@ body {
 }
 
 .footer {
+    color: #FDFBFD;
     background-color: #773C6F;
     padding: 20px;
 }
@@ -148,4 +149,14 @@ pre {
 
 .span {
     font-style: italic;
+}
+
+img {
+    width: 150px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
