@@ -1,1 +1,1 @@
-[CV в формате свёрстанной страницы]https://kaprika.github.io/rsschool-cv/
+[CV в формате свёрстанной страницы](https://kaprika.github.io/rsschool-cv/)
