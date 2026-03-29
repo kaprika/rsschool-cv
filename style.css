@@ -1,6 +1,6 @@
 @font-face {
     font-family: Roboto;
-    src: url("assets/fonts/Roboto.ttf");
+    src: url("./assets/fonts/Roboto-VariableFont_wdth\,wght.ttf");
 }
 
 html {
@@ -12,15 +12,17 @@ html {
 }
 
 body {
-    font-family: 'Roboto';
-}
-
-.header, .main, .footer {
-    border: 1px solid red;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     background-color: #773C6F;
+    padding: 10px;
 }
 
 .body {
@@ -94,6 +96,23 @@ img {
     color: #FDFBFD;
     background-color: #773C6F;
     padding: 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #713271;
+}
+
+.main-title {
+    color: #050505;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
 }
 
 @media (max-width: 768px) {
