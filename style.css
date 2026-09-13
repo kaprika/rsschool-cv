@@ -12,10 +12,13 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
 }
 
 .container {
@@ -78,4 +81,28 @@ h1 {
 
 .nav-link:hover {
     color: antiquewhite;
+}
+
+.section__title {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #713271;
+    margin-bottom: 2rem;
+}
+
+.section__list {
+    padding-left: 2rem;
+    list-style-type: square;
+}
+
+.section__link {
+    text-decoration: none;
+    color: #B474B1;
+    transition: color 0.5s;
+}
+
+.section__link:hover {
+    color: #050505;
 }
