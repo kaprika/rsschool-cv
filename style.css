@@ -65,6 +65,7 @@ h1 {
 .nav-list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 3rem;
     list-style: none;
 }
@@ -119,6 +120,17 @@ h1 {
 
 .education__specialty {
     font-style: italic;
+}
+
+.footer__logo {
+    width: 15rem;
+    height: auto;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 @media (max-width: 768px) {
