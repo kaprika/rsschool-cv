@@ -89,7 +89,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     color: #713271;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .section__list {
@@ -110,6 +110,7 @@ h1 {
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 4rem;
 }
 
 .section {
@@ -121,3 +122,4 @@ h1 {
         width: 100%;
     }
 }
+
